@@ -10,6 +10,9 @@ const aiNum = Math.floor(Math.random() * 6) + 1
     if (myNum < aiNum) {
         console.log('PC WINS!')
     }
-    else {
+    else if (myNum > aiNum){
         console.log('HUMAN WINS!')
+    }
+    else{
+        console.log('EVEN')
     }
